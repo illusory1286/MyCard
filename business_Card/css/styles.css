@@ -1,3 +1,52 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /* 調整卡片樣式 */
 body {
     background-color:rgb(143, 236, 227);/* 设置背景色 */
@@ -28,8 +77,8 @@ div.box1{
     right: 20px;
     width: 20%;
     margin-bottom:10px;
-    top: 10px;
-    left: 15px;
+    top: 15px;
+    left: 20px;
 }
 .gif{  
     position: absolute;  
@@ -80,17 +129,17 @@ div.box1{
 .content {
     position: absolute;
     font-size: 0.9em;
-    top: 145px;
-    left: 30px;
+    top: 159px;
+    left: 10px;
 }
 
 h1 {
     position: absolute;
     padding-left: 20px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: blue;
-    top: 60px;
-    left: 10px;
+    top: 90px;
+    left: 5px;
     /* padding: 50px 20px 20px 10px; */
 }
 
@@ -98,7 +147,7 @@ h2 {
     position: absolute;
     padding-left: 20px;
     color: blue;
-    top: 85px;
+    top: 130px;
     left: 90px;
     /* padding: 50px 20px 20px 100px; */
     /* margin: 30px 0; */
@@ -107,7 +156,7 @@ h2 {
 p {
     font-size: 0.9em;
     color: black;
-    margin: 5px 0;
+    margin: 5px ;
 }
 
 div.sideText{
